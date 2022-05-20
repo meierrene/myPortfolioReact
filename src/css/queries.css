@@ -75,7 +75,7 @@
     grid-template-columns: repeat(1, 1fr);
   }
   .gallery-img img {
-    max-width: 36rem;
+    max-width: 32rem;
   }
 }
 
