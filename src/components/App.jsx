@@ -5,6 +5,7 @@ import Footer from './Footer';
 import Aboutme from './Aboutme';
 import Myprojects from './MyProjects';
 import Cta from './Cta';
+import Gallery from './Gallery';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Aboutme />
           <hr id="myprojects" />
           <Myprojects />
+          <Gallery />
           <hr id="cta" />
           <Cta />
           <hr />
