@@ -4,7 +4,6 @@ import MarioBros from './MyProjects/MarioBros';
 import MeiersBlog from './MyProjects/MeiersBlog';
 import MeiersToDoList from './MyProjects/MeiersToDoList';
 import Meiersweb from './MyProjects/Meiersweb';
-import GuessMyNumber from './Gallery/GuessMyNumber';
 
 const Myprojects = () => {
   return (
