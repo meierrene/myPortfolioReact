@@ -8,7 +8,7 @@ import Meiersweb from './MyProjects/Meiersweb';
 const Myprojects = () => {
   return (
     <div className="myprojects-container">
-      <h2 className="h2-title">My projects</h2>
+      <h2 className="h2-title">My highlighted projects</h2>
 
       <div
         id="carouselExampleInterval"

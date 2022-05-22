@@ -1,23 +1,20 @@
 import React from 'react';
 
-const DrumKit = () => {
+const SimonGame = () => {
   return (
     <div className="postcard">
       <div className="gallery-img">
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://renemeier-gallery.netlify.app/projects/drumkit/"
+          href="https://renemeier-gallery.netlify.app/projects/simongame/"
         >
-          <img
-            src={require('./img/drumkit.png')}
-            alt="Basic JS Drum Kit Play"
-          />
+          <img src={require('./img/simongame.png')} alt="Basic JS Simon Game" />
         </a>
       </div>
-      <span className="gallery-title">Drum Kit Play</span>
+      <span className="gallery-title">Simon Game</span>
     </div>
   );
 };
 
-export default DrumKit;
+export default SimonGame;
