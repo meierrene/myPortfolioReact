@@ -1,6 +1,14 @@
 import React from 'react';
 import BankistApp from './Gallery/BankistApp';
+import BankistHomepage from './Gallery/BankistHomepage';
+import DiceeGame from './Gallery/DiceeGame';
+import DrumKit from './Gallery/DrumKit';
 import GuessMyNumber from './Gallery/GuessMyNumber';
+import Mapty from './Gallery/Mapty';
+import Omnifood from './Gallery/Omnifood';
+import SimonGame from './Gallery/PigGame';
+import PigGame from './Gallery/PigGame';
+import WhereAmI from './Gallery/WhereAmI';
 
 const Gallery = () => {
   return (
@@ -9,6 +17,14 @@ const Gallery = () => {
       <div className="icons-container gallery">
         <GuessMyNumber />
         <BankistApp />
+        <BankistHomepage />
+        <DiceeGame />
+        <DrumKit />
+        <Mapty />
+        <Omnifood />
+        <PigGame />
+        <SimonGame />
+        <WhereAmI />
       </div>
     </div>
   );
