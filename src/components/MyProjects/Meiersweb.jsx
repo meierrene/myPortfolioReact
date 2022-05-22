@@ -9,7 +9,7 @@ const Meiersweb = () => {
         href="https://renemeier-web.netlify.app/"
       >
         <img
-          src={require('../../img/meiersweb-gallery.png')}
+          src={require('./img/meiersweb.png')}
           className="d-block w-100"
           alt="Portfolio gallery Meiersweb"
         />

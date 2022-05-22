@@ -1,4 +1,5 @@
 import React from 'react';
+import BankistApp from './Gallery/BankistApp';
 import GuessMyNumber from './Gallery/GuessMyNumber';
 
 const Gallery = () => {
@@ -7,9 +8,7 @@ const Gallery = () => {
       <h2 className="h2-title">Gallery</h2>
       <div className="icons-container gallery">
         <GuessMyNumber />
-        <GuessMyNumber />
-        <GuessMyNumber />
-        <GuessMyNumber />
+        <BankistApp />
       </div>
     </div>
   );

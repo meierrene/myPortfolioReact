@@ -9,7 +9,7 @@ const MarioBros = () => {
         href="https://renemeier-mariobros.netlify.app/"
       >
         <img
-          src={require('../../img/mario-gallery.png')}
+          src={require('./img/mariobros.png')}
           className="d-block w-100"
           alt="Portfolio gallery Mario Bros"
         />

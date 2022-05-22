@@ -9,7 +9,7 @@ const MeiersToDoList = () => {
         href="https://meierstodolist.herokuapp.com/"
       >
         <img
-          src={require('../../img/meierstodolist-gallery.png')}
+          src={require('./img/meierstodolist.png')}
           className="d-block w-100"
           alt="Rene Meier's ToDo List"
         />

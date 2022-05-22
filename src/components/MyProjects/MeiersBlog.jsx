@@ -9,7 +9,7 @@ const MeiersBlog = () => {
         href="https://meiersblog.herokuapp.com/"
       >
         <img
-          src={require('../../img/meiersblog-gallery.png')}
+          src={require('./img/meiersblog.png')}
           className="d-block w-100"
           alt="Rene Meier's Blog"
         />

@@ -9,7 +9,7 @@ const Forkify = () => {
         href="https://renemeier-forkify.netlify.app/"
       >
         <img
-          src={require('../../img/forkify-gallery.png')}
+          src={require('./img/forkify.png')}
           className="d-block w-100"
           alt="Portfolio gallery Forkify"
         />
