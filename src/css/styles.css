@@ -190,6 +190,17 @@ hr {
   gap: 1.8rem;
 }
 
+input,
+textarea {
+  border: none;
+}
+
+*:focus {
+  outline: none;
+  /* box-shadow: 0 0 0 0.6rem rgba(204, 204, 204, 0.6); */
+  box-shadow: 0 0 0 0.6rem rgba(255, 169, 77, 0.6);
+}
+
 .cta-box {
   background-color: #333;
   color: #ccc;

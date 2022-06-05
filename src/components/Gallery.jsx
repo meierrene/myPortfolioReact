@@ -9,6 +9,7 @@ import Omnifood from './Gallery/Omnifood';
 import SimonGame from './Gallery/SimonGame';
 import PigGame from './Gallery/PigGame';
 import WhereAmI from './Gallery/WhereAmI';
+import WhatsAppMsg from './Gallery/WhatsAppMessage';
 
 const Gallery = () => {
   return (
@@ -24,6 +25,7 @@ const Gallery = () => {
         <Omnifood />
         <PigGame />
         <SimonGame />
+        <WhatsAppMsg />
         <WhereAmI />
       </div>
     </div>
