@@ -23,7 +23,8 @@ function Aboutme() {
           <code>.c</code> language in 2008. After several years I've decided to
           go deeper for programming. Then I got some skills from Java,
           JavaScript, HTML and CSS. And even started some little projects.
-          Actually I'm searching for homework jobs to get even better.
+          Actually I'm searching for homework and freelance jobs to get even
+          better.
         </p>
         <br />
         <p>Summarizing...</p>
