@@ -2,8 +2,6 @@ import React from 'react';
 import Forkify from './MyProjects/Forkify';
 import MarioBros from './MyProjects/MarioBros';
 import MeiersBlog from './MyProjects/MeiersBlog';
-import MeiersToDoList from './MyProjects/MeiersToDoList';
-import Meiersweb from './MyProjects/Meiersweb';
 import Natours from './MyProjects/Natours';
 
 const Myprojects = () => {
@@ -27,16 +25,10 @@ const Myprojects = () => {
             <Natours />
           </div>
           <div className="carousel-item">
-            <MeiersToDoList />
-          </div>
-          <div className="carousel-item">
             <Forkify />
           </div>
           <div className="carousel-item">
             <MeiersBlog />
-          </div>
-          <div className="carousel-item">
-            <Meiersweb />
           </div>
         </div>
         <button
