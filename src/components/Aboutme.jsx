@@ -34,17 +34,18 @@ function Aboutme() {
             <span role="img" aria-label="seedling">
               🌱
             </span>
-            I’m currently learning:&nbsp;<code>.js</code>,<code>.html</code>,{' '}
-            <code>.css</code>, <code>.java</code>,<code>.ejs</code>,{' '}
-            <code>NodeJS</code>,<code>MongoDB</code>;
+            I’m currently learning:&nbsp;<code>JavaScript</code>,{' '}
+            <code>Java</code>, <code>C#</code>, <code>NodeJS</code>,{' '}
+            <code>MongoDB</code>;
           </li>
           <li>
             <span role="img" aria-label="framed picture">
               🖼️
             </span>
-            And more additional frameworks like:&nbsp;
-            <code>Bootstrap</code>, <code>jQuery</code>,
-            <code>Node Express</code>, <code>ReactJS</code> and so on...
+            And I have some frameworks skills like:&nbsp;<code>Git</code>,{' '}
+            <code>GitHub</code>, <code>Bootstrap</code>,{' '}
+            <code>Node Express</code>, <code>ReactJS</code>, <code>Unity</code>{' '}
+            and so on...
           </li>
         </ul>
         <br />
