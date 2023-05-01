@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import '../src/css/styles.css';
 import '../src/css/queries.css';
 import '../src/css/background-space.css';
-import App from './components/App';
+import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

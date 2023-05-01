@@ -1,8 +1,6 @@
-import React from 'react';
-import Forkify from './MyProjects/Forkify';
-import MarioBros from './MyProjects/MarioBros';
-import MeiersBlog from './MyProjects/MeiersBlog';
-import Natours from './MyProjects/Natours';
+import './MyProjects.css';
+import Project from './Project';
+import { highlightedProjects } from '../../projectData';
 
 const Myprojects = () => {
   return (
@@ -18,18 +16,18 @@ const Myprojects = () => {
           className="myprojects-thumbnail carousel-inner"
           data-bs-interval="10"
         >
-          <div className="carousel-item active">
-            <MarioBros />
-          </div>
-          <div className="carousel-item">
-            <Natours />
-          </div>
-          <div className="carousel-item">
-            <Forkify />
-          </div>
-          <div className="carousel-item">
-            <MeiersBlog />
-          </div>
+          {highlightedProjects.map((project, i) => {
+            return (
+              <div className={`carousel-item ${i === 0 && 'active'}`}>
+                <Project
+                  name={project.name}
+                  link={project.link}
+                  image={project.image}
+                  description={project.description}
+                />
+              </div>
+            );
+          })}
         </div>
         <button
           className="carousel-control-prev"

@@ -1,6 +1,6 @@
-import React from 'react';
+import './Footer.css';
 
-function Footer() {
+const Footer = () => {
   return (
     <div className="footer-container">
       <p className="footer-copyright">
@@ -8,6 +8,6 @@ function Footer() {
       </p>
     </div>
   );
-}
+};
 
 export default Footer;

@@ -1,6 +1,7 @@
-import React from 'react';
+import './Header.css';
+import { sections } from '../../projectData';
 
-function Header() {
+const Header = () => {
   const initUrl = '#';
   return (
     <nav
@@ -23,25 +24,19 @@ function Header() {
       </button>
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav ms-auto">
-          <li className="nav-item">
-            <a className="menu-icons" href="#aboutme">
-              About me
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="menu-icons" href="#myprojects">
-              My Projects
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="menu-icons" href="#cta">
-              Contact me
-            </a>
-          </li>
+          {sections.map(s => {
+            return (
+              <li className="nav-item">
+                <a className="menu-icons" href={'#' + s.ref}>
+                  {s.title}
+                </a>
+              </li>
+            );
+          })}
         </ul>
       </div>
     </nav>
   );
-}
+};
 
 export default Header;

@@ -1,12 +1,12 @@
-import React from 'react';
+import './Aboutme.css';
 
-function Aboutme() {
+const Aboutme = () => {
   return (
     <div className="aboutme-container">
       <h2 className="h2-title">About me</h2>
       <img
         className="personal-pic"
-        src={require('../img/profile.jpg')}
+        src={require('../../img/profile.jpg')}
         alt="Portfolio Author"
       />
       <div className="story-telling">
@@ -87,15 +87,8 @@ function Aboutme() {
           </a>
         </div>
       </div>
-      <div className="presentation-gallery">
-        <img
-          className="rocket-icon"
-          src={require('../img/rocket.gif')}
-          alt="rocket pixelart"
-        />
-      </div>
     </div>
   );
-}
+};
 
 export default Aboutme;
