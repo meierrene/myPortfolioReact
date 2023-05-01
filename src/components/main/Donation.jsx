@@ -4,6 +4,8 @@ import CustomButton from '../UI/CustomButton';
 const Donation = () => {
   return (
     <div className="donation-container">
+      <h2 className="h2-title">Did you like my projects? Please support me!</h2>
+
       <form action="https://www.paypal.com/donate" method="post" target="_top">
         <input
           type="hidden"
